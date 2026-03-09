@@ -7,7 +7,7 @@ name = "pymimir-rl"
 version = "0.2.6"
 description = "Reinforcement Learning (RL) package for Mimir."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.15"
 license = "GPL-3.0-or-later"
 authors = [
   { name = "Simon Stahlberg", email = "simon.stahlberg@gmail.com" }
@@ -23,7 +23,7 @@ classifiers = [
   "Topic :: Scientific/Engineering :: Artificial Intelligence"
 ]
 dependencies = [
-  "torch>=2.6.0",
+  "torch>=2.10.0",
   "pymimir>=0.13.55",
   "networkx>=3.5"
 ]
